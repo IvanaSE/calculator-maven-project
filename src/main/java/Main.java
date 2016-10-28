@@ -5,6 +5,7 @@ public class Main {
 		Calculator calculator = new Calculator();
 		
 		CalculatorGUI window = new CalculatorGUI();
+		window.frame.setVisible(true);
 		
 		/*System.out.println(calculator.add(10.0, 2.0));
 		System.out.println(calculator.subtract(10.0, 2.0));

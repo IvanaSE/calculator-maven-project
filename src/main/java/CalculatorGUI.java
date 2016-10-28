@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 
 public class CalculatorGUI {
 
-	private JFrame frame;
+	JFrame frame;
 	private JTextField textFieldFirstNumber;
 	private JTextField textFieldSecondNumber;
 	private JLabel lblResult = new JLabel("Result: ");
@@ -66,7 +66,7 @@ public class CalculatorGUI {
 		frame.getContentPane().add(lblSecondNumber);
 		
 		lblResult = new JLabel("Result: ");
-		lblResult.setBounds(40, 122, 70, 15);
+		lblResult.setBounds(40, 122, 229, 15);
 		frame.getContentPane().add(lblResult);
 		
 		JButton btnAdd = new JButton("+");
